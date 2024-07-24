@@ -1,0 +1,19 @@
+{
+  "name": "Cool Cat #1",
+  "description": "This is a Cool Cat NFT. Unique and rare.",
+  "image": "https://example.com/images/cool-cat-1.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "T-Shirt"
+    }
+  ]
+}
