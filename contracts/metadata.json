@@ -1,7 +1,7 @@
 {
   "name": "Cool Cat #1",
   "description": "This is a Cool Cat NFT. Unique and rare.",
-  "image": "https://example.com/images/cool-cat-1.png",
+  "image": "https://raw.githubusercontent.com/Mefa101/Swisstronik/main/utils/cat2.jpeg",
   "attributes": [
     {
       "trait_type": "Background",
