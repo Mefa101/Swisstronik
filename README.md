@@ -1,1 +1,3 @@
 # Swisstronik
+
+simple Counter Contract
