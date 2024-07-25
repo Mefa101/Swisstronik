@@ -25,11 +25,11 @@ npx hardhat run scripts/perc20/script.js
 
 for nft populated with your image and json
 
-npx hardhat run script/deploynft.js
+npx hardhat run script/deploy-nft.js
 
 mint 
 
-npx hardhat run script/mint_nft.js
+npx hardhat run script/mintnft.js
 
 
 
