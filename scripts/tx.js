@@ -1,8 +1,12 @@
 const { ethers } = require('ethers');
-
 const rpcURL = 'https://json-rpc.testnet.swisstronik.com';
 const provider = new ethers.JsonRpcProvider(rpcURL);
-const txHash = '0x415e71da0d7656f76443024a161b86fedf24648b50369c96dc3e81b8be3a6c5a';
+const txHash = process.argv[2];
+
+if (!txHash) {
+  console.error('Please provide a transaction hash as an argument.');
+  process.exit(1);
+}
 
 async function getTransactionDetails() {
   try {
