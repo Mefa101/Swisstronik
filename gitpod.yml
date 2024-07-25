@@ -1,1 +1,14 @@
+image: gitpod/workspace-full
 
+tasks:
+  - name: Install Dependencies
+    init: |
+      npm install
+    command: |
+      npm start
+
+vscode:
+  extensions:
+    - ms-python.python
+    - ms-vscode.cpptools
+    - redhat.vscode-yaml
