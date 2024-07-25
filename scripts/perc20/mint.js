@@ -20,7 +20,7 @@ async function main() {
   console.log(contractFactory)
   const contract = contractFactory.attach(contractAddress);
   const functionName = "mint";
-  const functionArg = ["0x0b4a1A22108A06811472a4cD8ae0d8C6b1E5b90a", "100000000000000000000000"];
+  const functionArg = ["0x0b4a1A22108A06811472a4cD8ae0d8C6b1E5b90a", "100000000000000000000"];
   const mint100TokensTx = await sendShieldedTransaction(
     signer,
     contractAddress,
