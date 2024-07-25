@@ -32,4 +32,11 @@ mint
 npx hardhat run script/mintnft.js
 
 
+## check onchain tx hash
+node /scripts/tx.js 0x{Hash}
+
+
+
+
+
 
