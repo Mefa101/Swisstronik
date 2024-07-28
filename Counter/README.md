@@ -1,3 +1,14 @@
-# Contract Deployment with Hardhat
+# Counter Contract Creation
 
-This straightforward Hardhat project is designed to guide you in creating a basic smart contract for message setting and retrieval. Dive into deploying your contract and interact with it using scripts & SwisstronikJS 🚀
+## Setup
+
+1. Install dependencies
+   npm install 
+3. Set up environment variables
+   populated private key with your private key
+
+## Deploy
+
+1. npx hardhat run scripts/deploy.js
+
+
