@@ -3,7 +3,8 @@
 ## Setup
 
 1. Install dependencies
-   npm install 
+   ```bash
+   npm install
 3. Set up environment variables
    populated private key with your private key
 
