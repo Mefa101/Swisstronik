@@ -1,3 +1,19 @@
-# Contract Deployment with Hardhat
+# Proxy Upgradeable Contract Creation
 
-This straightforward Hardhat project is designed to guide you in creating a basic smart contract for message setting and retrieval. Dive into deploying your contract and interact with it using scripts & SwisstronikJS 🚀
+## Setup
+
+1. Install dependencies
+   ```bash
+   npm install
+3. Set up environment variables
+   populated private key with your private key
+
+## Deploy
+   ```bash
+npx hardhat run scripts/deploy2.js
+   ```
+These contract make 2 simple storage with v1 simple storage then upgrade to v2 simple storage using proxy 
+
+
+
+
