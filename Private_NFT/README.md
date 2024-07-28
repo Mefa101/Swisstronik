@@ -11,14 +11,17 @@
 ## Deploy
    ```bash
 npx hardhat run scripts/deploy.js
+   ```
 
 ## White list
 ```bash
   npx hardhat run scripts//whitelist.js
+```
 
 ## Mint
 ```bash
   npx hardhat run scripts/mint.js
+```
 
 
 
