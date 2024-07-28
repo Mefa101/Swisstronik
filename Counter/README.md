@@ -9,7 +9,7 @@
    populated private key with your private key
 
 ## Deploy
-
-1. npx hardhat run scripts/deploy.js
+   ```bash
+npx hardhat run scripts/deploy.js
 
 
