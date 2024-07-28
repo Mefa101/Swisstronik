@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+# Counter Contract Creation
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Setup
 
-Try running some of the following tasks:
+1. Install dependencies
+   ```bash
+   npm install
+3. Set up environment variables
+   populated private key with your private key
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
+## Deploy
+   ```bash
 npx hardhat run scripts/deploy.js
-```
+## Mint
+```bash
+  npx hardhat run scripts/mint.js
+## Transfer
+```bash
+  npx hardhat run scripts/transfer.js
+
+
