@@ -1,0 +1,26 @@
+{
+  "name": "Unique Art Piece #1",
+  "description": "This is a unique digital art piece created by [Artist Name].",
+  "image": "https://raw.githubusercontent.com/Mefa101/Swisstronik/main/utils/cat2.jpeg",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Character",
+      "value": "Robot"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Sunglasses"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "external_url": "https://raw.githubusercontent.com/Mefa101/Swisstronik/main/utils/cat2.jpeg",
+  "creator": "Artist Name",
+  "date_created": "2024-07-30"
+}
